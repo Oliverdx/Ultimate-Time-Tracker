@@ -1,0 +1,24 @@
+.user{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 300px;
+  background-color: var(--darkblue);
+  color: var(--white);
+
+  &:not(:last-child){
+    margin-right: 65px;
+  }
+
+  &__name{
+    text-transform: capitalize;
+  }
+
+  &__loginBtn{
+    border: none;
+    appearance: none;
+    margin-right: 15px;
+  }
+}

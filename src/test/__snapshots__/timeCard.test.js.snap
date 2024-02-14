@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimeCard component test Should render correctly 1`] = `
+<div>
+  <div>
+    <p>
+      01
+    </p>
+    <span>
+      Janeiro
+    </span>
+  </div>
+  <div>
+    <div>
+      <span>
+        Início
+      </span>
+      <p
+        className=""
+      >
+        Invalid Date
+      </p>
+    </div>
+    <div>
+      <span>
+        Almoço
+      </span>
+      <p
+        className=""
+      >
+        Invalid Date
+      </p>
+    </div>
+    <div>
+      <span>
+        Retorno
+      </span>
+      <p
+        className=""
+      >
+        Invalid Date
+      </p>
+    </div>
+    <div>
+      <span>
+        Saída
+      </span>
+      <p
+        className=""
+      >
+        Invalid Date
+      </p>
+    </div>
+    <div>
+      <span>
+        Trabalhado
+      </span>
+      <p
+        className=" "
+      >
+        NaN:NaN
+      </p>
+    </div>
+  </div>
+</div>
+`;

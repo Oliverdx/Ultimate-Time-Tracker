@@ -1,0 +1,61 @@
+.inputTime{
+  display: grid;
+  grid-gap: 5px 10px;
+  width: 500px;
+  grid-template-areas: "date start exit" 
+  "lunchexit lunchreturn submit";
+
+  & label {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 14px;
+
+    & > input{
+      width: 150px;
+      height: 35px;
+      border: none;
+      appearance: none;
+      outline: none;
+      border-radius: 5px;
+      margin-top: 5px;
+      font-size:14px;
+      padding: 0 10px;
+    }
+  }
+
+  &__date{
+    grid-area: date;
+  }
+
+  &__start{
+    grid-area: start;
+  }
+  
+  &__exit{
+    grid-area: exit;
+  }
+  
+  &__lunchexit{
+    grid-area: lunchexit;
+  }
+
+  &__submit{
+    grid-area: submit;
+    width: 150px;
+    height: 37px;
+    margin-top: 21px;
+    border-radius: 5px;
+    border: 2px solid var(--lightred);
+    background-color: var(--lightred);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: ease all 400ms;
+
+    &:hover{
+      border: 2px solid var(--white);
+      background: none;
+    }
+  }
+}

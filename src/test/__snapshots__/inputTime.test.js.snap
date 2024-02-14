@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputTime component test Should render correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <label>
+    Data
+    <input
+      onChange={[Function]}
+      type="date"
+    />
+  </label>
+  <label>
+    Início
+    <input
+      onChange={[Function]}
+      type="time"
+    />
+  </label>
+  <label>
+    Saída
+    <input
+      onChange={[Function]}
+      type="time"
+    />
+  </label>
+  <label>
+    Almoço
+    <input
+      onChange={[Function]}
+      type="time"
+    />
+  </label>
+  <label>
+    Retorno
+    <input
+      onChange={[Function]}
+      type="time"
+    />
+  </label>
+  <input
+    type="submit"
+    value="Enviar"
+  />
+</form>
+`;

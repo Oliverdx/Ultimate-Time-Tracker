@@ -1,0 +1,66 @@
+.cardWrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 90px;
+  margin: 0 auto 20px;
+  border-radius: 5px;
+  border: 2px solid var(--lightgray);
+  padding: 0 22px;
+
+  &__date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 75px;
+    height: 75px;
+    margin-right: 40px;
+    border: 2px solid var(--lightgreen);
+    border-radius: 100%;
+
+    &__day{
+      margin: 0;
+      font-size: 23px;
+      line-height: 23px;
+    }
+
+    &__month{
+      margin: 5px 0 0;
+      font-size: 10px;
+      text-transform: uppercase;
+    }
+  }
+
+  &__timesGrid{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+.timeStamp{
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+
+  &__label{
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  &__time{
+    font-size: 32px;
+    margin: 0; 
+  }
+
+  &__bellow{
+    color: var(--red);
+  }
+
+  &__ontime{
+    color: var(--lightgreen);
+  }
+}
